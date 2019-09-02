@@ -13,8 +13,8 @@
             <property name="suppressAllComments" value="true"/>
         </commentGenerator>
         <jdbcConnection
-                connectionURL="jdbc:mysql://127.0.0.1:3306/ssm?characterEncoding=utf8"
-                driverClass="com.mysql.jdbc.Driver" password="tiger" userId="root"/>
+                connectionURL="jdbc:mysql://172.17.0.2:3306/ssm?characterEncoding=utf8"
+                driverClass="com.mysql.jdbc.Driver" password="password" userId="root"/>
         <javaModelGenerator targetPackage="com.crossoverJie.pojo"
                             targetProject="src/main/java"/>
         <sqlMapGenerator targetPackage="com.crossoverJie.dao"
@@ -35,8 +35,8 @@
                 <property name="suppressAllComments" value="true"/>
             </commentGenerator>
             <jdbcConnection
-                    connectionURL="jdbc:mysql://127.0.0.1:3306/ssm2?characterEncoding=utf8"
-                    driverClass="com.mysql.jdbc.Driver" password="tiger" userId="root"/>
+                    connectionURL="jdbc:mysql://172.17.0.2:3306/ssm2?characterEncoding=utf8"
+                    driverClass="com.mysql.jdbc.Driver" password="password" userId="root"/>
             <javaModelGenerator targetPackage="com.crossoverJie.pojo"
                                 targetProject="src/main/java"/>
             <sqlMapGenerator targetPackage="com.crossoverJie.dao"

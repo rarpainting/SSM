@@ -17,6 +17,7 @@ import java.util.Set;
 public class T_userServiceImpl implements T_userService {
 
     @Resource
+    // @Autowired
     private T_userDao t_userDao ;
 
     @Override

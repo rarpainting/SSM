@@ -17,6 +17,9 @@
     </modules>
 
     <properties>
+		<java.version>1.8</java.version>
+        <maven.compiler.source>1.8</maven.compiler.source>
+        <maven.compiler.target>1.8</maven.compiler.target>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <spring.version>4.3.7.RELEASE</spring.version>
         <jackson.version>2.5.0</jackson.version>
@@ -225,7 +228,7 @@
             <dependency>
                 <groupId>mysql</groupId>
                 <artifactId>mysql-connector-java</artifactId>
-                <version>5.1.34</version>
+                <version>5.1.44</version>
             </dependency>
 
 
@@ -434,7 +437,6 @@
                 <artifactId>httpclient</artifactId>
                 <version>4.5.1</version>
             </dependency>
-
 
         </dependencies>
     </dependencyManagement>

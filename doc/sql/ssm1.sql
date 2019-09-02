@@ -5,7 +5,7 @@
 # http://www.sequelpro.com/
 # https://github.com/sequelpro/sequelpro
 #
-# Host: 127.0.0.1 (MySQL 5.7.16)
+# Host: 127.0.0.1 (MySQL 5.7.16) => (MySQL 8.0.15)
 # Database: ssm
 # Generation Time: 2018-04-08 09:39:50 +0000
 # ************************************************************
